@@ -33,6 +33,9 @@ SELECT 'XYZZY' || hex(User.name || Course.title || Member.role ) AS X FROM
     ORDER BY X LIMIT 1;
     
 You should get one row with a string that looks like XYZZY53656C696E613333.
+
+Python for Everybody: Exploring Data Using Python 3
+by Charles R. Severance
 '''
 import json
 import sqlite3
